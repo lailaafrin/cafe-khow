@@ -7,7 +7,7 @@ const SideCart = ({ bookmarks, readingtime }) => {
         <div className='md:w-1/3 bg-gray-300 mt-2  ml-4'>
 
             <div>
-                <h3 className='text-4xl text-center'>ReadingTime: {readingtime}</h3>
+                <h3 className='text-4xl text-center'>ReardingTime: {readingtime}</h3>
             </div>
             <h1 className='text-4xl text-center'>bookmarks: {bookmarks.length}</h1>
 
